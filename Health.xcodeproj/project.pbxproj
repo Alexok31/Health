@@ -8,22 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		42654228216655DC00DDD188 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42654227216655DC00DDD188 /* AppDelegate.swift */; };
-		4265422A216655DC00DDD188 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42654229216655DC00DDD188 /* ViewController.swift */; };
+		4265422A216655DC00DDD188 /* DashbordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42654229216655DC00DDD188 /* DashbordController.swift */; };
 		4265422D216655DC00DDD188 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4265422B216655DC00DDD188 /* Main.storyboard */; };
 		42654230216655DC00DDD188 /* Health.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4265422E216655DC00DDD188 /* Health.xcdatamodeld */; };
 		42654232216655DE00DDD188 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42654231216655DE00DDD188 /* Assets.xcassets */; };
 		42654235216655DE00DDD188 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42654233216655DE00DDD188 /* LaunchScreen.storyboard */; };
+		4265423D216655FF00DDD188 /* PersistentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4265423C216655FF00DDD188 /* PersistentManager.swift */; };
+		42654240216657D900DDD188 /* Pedometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4265423F216657D900DDD188 /* Pedometer.swift */; };
+		4265424221666A6E00DDD188 /* diagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4265424121666A6E00DDD188 /* diagram.swift */; };
+		42F0013B2166BECB00A87C91 /* DashbordHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F0013A2166BECB00A87C91 /* DashbordHelper.swift */; };
+		42F0013D2166BF9F00A87C91 /* PhysiologicalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F0013C2166BF9F00A87C91 /* PhysiologicalData.swift */; };
+		5357902CAAFDE595AE3F9182 /* Pods_Health.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B699324CF7032EAED8ED25ED /* Pods_Health.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		42654224216655DC00DDD188 /* Health.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Health.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42654227216655DC00DDD188 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		42654229216655DC00DDD188 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42654229216655DC00DDD188 /* DashbordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashbordController.swift; sourceTree = "<group>"; };
 		4265422C216655DC00DDD188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4265422F216655DC00DDD188 /* Health.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Health.xcdatamodel; sourceTree = "<group>"; };
 		42654231216655DE00DDD188 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42654234216655DE00DDD188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42654236216655DE00DDD188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4265423C216655FF00DDD188 /* PersistentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentManager.swift; sourceTree = "<group>"; };
+		4265423F216657D900DDD188 /* Pedometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pedometer.swift; sourceTree = "<group>"; };
+		4265424121666A6E00DDD188 /* diagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diagram.swift; sourceTree = "<group>"; };
+		42F0013A2166BECB00A87C91 /* DashbordHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashbordHelper.swift; sourceTree = "<group>"; };
+		42F0013C2166BF9F00A87C91 /* PhysiologicalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysiologicalData.swift; sourceTree = "<group>"; };
+		8C1939097F8511AFB13C71C7 /* Pods-Health.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Health.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Health/Pods-Health.debug.xcconfig"; sourceTree = "<group>"; };
+		B699324CF7032EAED8ED25ED /* Pods_Health.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Health.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5A9EC2368277F54388C2D6D /* Pods-Health.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Health.release.xcconfig"; path = "Pods/Target Support Files/Pods-Health/Pods-Health.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5357902CAAFDE595AE3F9182 /* Pods_Health.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		298CBC917A5340CCD9BEF260 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C1939097F8511AFB13C71C7 /* Pods-Health.debug.xcconfig */,
+				C5A9EC2368277F54388C2D6D /* Pods-Health.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4265421B216655DC00DDD188 = {
 			isa = PBXGroup;
 			children = (
 				42654226216655DC00DDD188 /* Health */,
 				42654225216655DC00DDD188 /* Products */,
+				298CBC917A5340CCD9BEF260 /* Pods */,
+				9D7AC245294F8E1E0CFEC16E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +83,43 @@
 			isa = PBXGroup;
 			children = (
 				42654227216655DC00DDD188 /* AppDelegate.swift */,
-				42654229216655DC00DDD188 /* ViewController.swift */,
+				42654229216655DC00DDD188 /* DashbordController.swift */,
+				42F0013A2166BECB00A87C91 /* DashbordHelper.swift */,
+				4265423F216657D900DDD188 /* Pedometer.swift */,
+				42F0013E2166C08600A87C91 /* DataModel */,
+				4265423E2166560400DDD188 /* CoreData */,
 				4265422B216655DC00DDD188 /* Main.storyboard */,
+				4265424121666A6E00DDD188 /* diagram.swift */,
 				42654231216655DE00DDD188 /* Assets.xcassets */,
 				42654233216655DE00DDD188 /* LaunchScreen.storyboard */,
 				42654236216655DE00DDD188 /* Info.plist */,
 				4265422E216655DC00DDD188 /* Health.xcdatamodeld */,
 			);
 			path = Health;
+			sourceTree = "<group>";
+		};
+		4265423E2166560400DDD188 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				4265423C216655FF00DDD188 /* PersistentManager.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		42F0013E2166C08600A87C91 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				42F0013C2166BF9F00A87C91 /* PhysiologicalData.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		9D7AC245294F8E1E0CFEC16E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B699324CF7032EAED8ED25ED /* Pods_Health.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +129,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42654239216655DE00DDD188 /* Build configuration list for PBXNativeTarget "Health" */;
 			buildPhases = (
+				0B05B0242A9C0BECD539317A /* [CP] Check Pods Manifest.lock */,
 				42654220216655DC00DDD188 /* Sources */,
 				42654221216655DC00DDD188 /* Frameworks */,
 				42654222216655DC00DDD188 /* Resources */,
+				0F16445451A3B51554A90CE6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +190,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B05B0242A9C0BECD539317A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Health-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0F16445451A3B51554A90CE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Health/Pods-Health-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/UICircularProgressRing/UICircularProgressRing.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICircularProgressRing.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Health/Pods-Health-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		42654220216655DC00DDD188 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4265422A216655DC00DDD188 /* ViewController.swift in Sources */,
+				42654240216657D900DDD188 /* Pedometer.swift in Sources */,
+				4265422A216655DC00DDD188 /* DashbordController.swift in Sources */,
 				42654230216655DC00DDD188 /* Health.xcdatamodeld in Sources */,
+				4265424221666A6E00DDD188 /* diagram.swift in Sources */,
+				4265423D216655FF00DDD188 /* PersistentManager.swift in Sources */,
+				42F0013D2166BF9F00A87C91 /* PhysiologicalData.swift in Sources */,
 				42654228216655DC00DDD188 /* AppDelegate.swift in Sources */,
+				42F0013B2166BECB00A87C91 /* DashbordHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +385,7 @@
 		};
 		4265423A216655DE00DDD188 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C1939097F8511AFB13C71C7 /* Pods-Health.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +404,7 @@
 		};
 		4265423B216655DE00DDD188 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5A9EC2368277F54388C2D6D /* Pods-Health.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
